@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlipBook</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:wght@100..900&display=swap" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <div class="site-name">
+      <h1 style="font-weight: 300;">FlipBook</h1>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Welcome to Your Own Personal Online Note-Book.</h1>
+    <p class="tagline">Happy Notes Making !</p>
+    <a href="#" class="scroll-down" address="true"></a>
+  </div>
+</section>
+
+<section id="video-section" class="video-container">
+  <input type="text" id="video-url" placeholder="Paste YouTube video URL here">
+  <button id="embed-button" class="button">Embed Video</button>
+  <div class="video-wrapper">
+      <iframe id="video-player" allowfullscreen></iframe>
+  </div>
+</section>
+
+<section class="features-notepad">
+  <div class="container">
+    <div class="notepad-container">
+        <textarea id="notepad" class="notepad" placeholder="Write your notes here..."></textarea>
+        <button id="save-button" class="button">Save</button>
+        <button id="clear-button" class="button">Clear</button>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <p>Made with <span style="color: #ff0000;">&#10084; </span>  by Gaurav Srivastava !</p>
+  </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script src="script.js"></script>
+</body>
+</html>
